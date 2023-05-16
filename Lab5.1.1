@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Person {
+public:
+    string name;
+    int age;
+    string occupation;  // New member: occupation
+
+    // New member function: introduce()
+    void introduce() {
+        cout << "My name is " << name << ", I am " << age << " years old, and I work as a " << occupation << "." << endl;
+    }
+};
+
+int main() {
+    Person person;
+    person.name = "Harry";
+    person.age = 23;
+    person.occupation = "developer";
+
+    cout << "Meet " << person.name << endl;
+    person.introduce();  // Call the introduce() member function
+
+    return 0;
+}
