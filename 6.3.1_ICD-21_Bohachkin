@@ -1,3 +1,5 @@
+PART 1
+
 #include <iostream>
 #include <string>
 
@@ -110,3 +112,11 @@ int main()
 	plusLine->Draw();	
 	return 0;
 }
+
+
+
+
+
+
+
+PART 3
